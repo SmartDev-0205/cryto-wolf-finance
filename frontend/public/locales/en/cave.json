@@ -1,0 +1,12 @@
+{
+    "mint-material": "Mint Material",
+    "current-materials": "Current Materials",
+    "max-wolves": "Max Wolves",
+    "filter-by-material": "Filter by Material Rarity",
+    "awaiting-for-extraction": "awaiting for extraction",
+    "reveal-material": "Reveal Material",
+    "extracting-soon": "Extracting soon",
+    "material": "Material",
+    "materials": "Materials",
+    "materials-info": "Materials increase or reduce the size of the wolf pack. Each material increase size by 1 to 6, depending on rarity, can use up to 20 materials to create Caves."
+}

@@ -1,0 +1,10 @@
+npx hardhat clean;
+npx hardhat deploy --network bscTestnet --tags Multicall; sleep 10;
+npx hardhat deploy --network bscTestnet --tags DateTimeLibrary; sleep 10;
+npx hardhat deploy --network bscTestnet --tags Variables; sleep 10;
+npx hardhat deploy --network bscTestnet --tags CWolfToken; sleep 10;
+npx hardhat deploy --network bscTestnet --tags WolfsNFTHelper; sleep 10;
+npx hardhat deploy --network bscTestnet --tags WolfsNFT; sleep 10;
+npx hardhat deploy --network bscTestnet --tags MaterialsNFT; sleep 10;
+npx hardhat deploy --network bscTestnet --tags WolfPacksNFT; sleep 10;
+# npx hardhat deploy --network bscTestnet --tags HuntingNFT; sleep 10;

@@ -1,0 +1,12 @@
+node_modules
+.env
+.env.private
+coverage
+coverage.json
+typechaing
+
+#Hardhat files
+cache
+artifacts
+
+deployments/localhost

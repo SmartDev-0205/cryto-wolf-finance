@@ -1,0 +1,2 @@
+# Generar CSV de todas las compras de la presale publica
+php presaleToCSV.php > presalepublic.csv

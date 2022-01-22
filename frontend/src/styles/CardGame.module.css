@@ -1,0 +1,50 @@
+  .cardgame-perspective {
+    perspective: 350px;
+  }
+  .cardgame {
+    /* limit the width of the .cardgame container */
+    width: 350px;
+    /* display the contents in a column */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transition for the transform property, updated in the script */
+    transition: transform 0.2s ease-out;
+  }
+  .cardgame img {
+    width: 400px;
+  }
+  .cardgame:hover{
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(64, 186, 233, 0.67);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(64, 186, 233, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(64, 186, 233, 0.67);
+    background: rgba(64, 186, 233, 0.67);
+  }
+  .cardgame .wolf {
+    position: absolute;
+    bottom: 132px;
+    width: 200px;
+  }
+  .cardgame .defatck {
+    position: absolute;
+    bottom: 80px;
+    width: 150px;
+  }
+  .cardgame .defNumber {
+    position: absolute;
+    bottom: 85px;
+    right: 60px;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  .cardgame .atckNumber {
+    position: absolute;
+    bottom: 85px;
+    left: 60px;
+    font-size: 24px;
+    font-weight: bolder;
+  }

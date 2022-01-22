@@ -1,0 +1,11 @@
+# CryptoWolfNothing to compile
+
+Compilation finished successfully
+deploying "DefaultProxyAdmin" (tx: 0xb7924f865b14f6bc453ee5a3ae2e2764e397c4c4520dc797197b92455b66d8b8)...: deployed at 0x7f68D29F216F4a6dfE43Ba7776e0b7df739FD1E4 with 671461 gas
+deploying "WolfsNFTHelper_Implementation" (tx: 0x71a928ad51500cc938e4398e94dee8423834fad1296c768e33e9b9cec3b5ec73)...: deployed at 0x164D881EF25EE7527cA1973626c0ad2142C0A38A with 2081146 gas
+deploying "WolfsNFTHelper_Proxy" (tx: 0xd6b1a9bc2f593590d2c5ceb8f683bf572a755c48646727dec63d55c7e0cdd6c8)...: deployed at 0x902A575C8e9b074a33B6a22E2Ea61f0c01a25350 with 544341 gas
+contractDeployed: 0x902A575C8e9b074a33B6a22E2Ea61f0c01a25350
+reusing "DefaultProxyAdmin" at 0x7f68D29F216F4a6dfE43Ba7776e0b7df739FD1E4
+deploying "WolfsNFT_Implementation" (tx: 0xfb7c27a2cf1a741e396dfa94ed93ee3a3370f010d3e4c18f3b046e606fda9e89)...: deployed at 0x0d9509E24e87A1A7841A688B89B4e1fEf5A72996 with 4512169 gas
+deploying "WolfsNFT_Proxy" (tx: 0xdb5987b7811bf28c488c4448324a1211e78a5d42fd97c37e2a8b916ff41889e0)...: deployed at 0x2075F6390F24f53d8194f09A0cc45a034945CF5f with 544341 gas
+contractDeployed: 0x2075F6390F24f53d8194f09A0cc45a034945CF5f

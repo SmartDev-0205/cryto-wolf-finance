@@ -1,0 +1,19 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "module": "commonjs",
+  "dependencies": {
+    "chunk-array": "^1.0.2",
+    "dotenv": "^10.0.0",
+    "eth-multicall": "^1.4.0",
+    "keccak256": "^1.0.6",
+    "next": "^12.0.7",
+    "uuid": "^8.3.2",
+    "web3": "^1.6.1"
+  }
+}

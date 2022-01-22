@@ -1,0 +1,129 @@
+.sub-menu {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 80px;
+    margin: 0 45px;
+    padding: 0 60px;
+    pointer-events: none;
+    z-index: 1;
+}
+.counter-header {
+    margin-left: -35px;
+    font-size: 18px;
+    color: #a99bc5;
+    pointer-events: all;
+}
+.counter-header__battles, .counter-header__online, .counter-header__users, .counter-header__opened, .counter-header__upgraded {
+    position: relative;
+    display: inline-block;
+    margin: 5px 0 5px 13px;
+    padding-left: 38px;
+}
+.counter-header__online .icon {
+    color: #00d5c6;
+    font-size: 24px;
+    -webkit-animation: 1s infinite alternate onlineUsersLogo;
+    animation: 1s infinite alternate onlineUsersLogo;
+}
+.counter-header__users .icon {
+    margin-top: -4px;
+    font-size: 35px;
+    color: #ea4391;
+}
+.counter-header__battles .icon {
+    color: #79c1e0;
+    font-size: 26px;
+    padding-bottom: 5px;
+}
+.counter-header__upgraded .icon {
+    margin-top: -3px;
+    font-size: 30px;
+    color: #7c5ac8;
+}
+.counter-header__opened .icon {
+    margin-top: -3px;
+    font-size: 30px;
+    color: #de437c;
+}
+.counter-header .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.counter-header__online .counter-header__counter {
+    color: #00d5c6;
+}
+.counter-header__users .counter-header__counter {
+    color: #ea4391;
+}
+.counter-header__battles .counter-header__counter {
+    color: #79c1e0;
+}
+.counter-header__upgraded .counter-header__counter {
+    color: #7c5ac8;
+}
+.counter-header__opened .counter-header__counter {
+    color: #de437c;
+}
+.counter-header__counter {
+    letter-spacing: -0.05em;
+    font-weight: 700;
+}
+.social-header {
+    margin-left: -10px;
+    overflow: hidden;
+    pointer-events: all;
+    white-space: nowrap;
+}
+.social-header__link {
+    width: 40px;
+    height: 44px;
+    display: inline-block;
+    margin-left: 10px;
+    color: #6f6d9d;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background: #18142a;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+}
+.social-header__link .icon {
+    position: absolute;
+    display: block;
+    content: '';
+    color: #6f6d9d;
+    text-align: center;
+    line-height: 44px;
+    width: 100%;
+    z-index: 2;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.social-header__link .icon-youtube {
+    font-size: 20px;
+}
+.social-header__link .icon-discord {
+    font-size: 22px;
+}
+.social-header__link:hover {
+    background-color: #3b3363;
+}
+.social-header__link:hover::before {
+    color: #fff;
+}
+@keyframes onlineUsersLogo {
+    from {
+        opacity: 1;
+   }
+    to {
+        opacity: 0.5;
+   }
+}

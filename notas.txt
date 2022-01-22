@@ -1,0 +1,91 @@
+
+
+
+
+
+CryptoWolf
+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
+
+
+DEPLOYAR UN CONTRATO SÓLO
+npx hardhat deploy --network NETWORK --tags CONTRACT
+
+npx hardhat verity --network NETWORK DIRECCION_IMPLEMENTATION
+
+
+
+
+
+Hardhat LOCAL
+npx hardhat node // Arranca el nodo
+npx hardhat deploy --network NETWORK --tags CONTRACT
+
+
+Hardhat BSCTESTNET
+npx hardhat deploy --network bscTestnet --tags CWolfToken --export ../frontend/contracts/CWolfToken.json
+npx hardhat verify --network bscTestnet IMPLEMENTATION ADDRESS
+
+Deployar todos los contratos
+npx hardhat deploy --network bscTestnet --export
+
+
+LIMPIAR HARDHAT - NO UTILIZAR
+npx hardhat clean;
+
+Tenderly
+npx hardhat tenderly:push SaleContract=0xc5aD46917301b8a426d0C68B53a5CF0DF787cf95 --network rinkeby
+
+
+
+index shock property yard pipe absurd about twelve pass horn pattern park 
+
+TOKEN ACTUAL
+
+
+WHITEPAPER
+https://cryptowolf.gitbook.io/spanish/tokenomics/informacion-del-token
+
+WEB
+https://www.cryptowolf.finance/
+
+TESTNET CONTRACTS
+reusing "Multicall" at 0x485Ce0BecdA08c8D344ab99993776F71D65b57a4
+Verify: 
+npx hardhat verify --network bscTestnet <Burger_Implementation_adddress>
+reusing "DefaultProxyAdmin" at 0xFfE43e71461920d9ee2Eb6095c6750412bcC8CC3
+reusing "CWolfToken_Implementation" at 0x45a2F980c28C3748e44D16857a11eAa56733ba89
+isInitialized:  true
+Verify: 
+npx hardhat verify --network bscTestnet <Implementation_adddress>
+reusing "DefaultProxyAdmin" at 0xFfE43e71461920d9ee2Eb6095c6750412bcC8CC3
+reusing "WolfsNFTHelper_Implementation" at 0x7aA4805151491f6E7e1Ce8f1622E19C0BB5bD873
+isInitialized:  true
+Verify: 
+npx hardhat verify --network bscTestnet <Implementation_adddress>
+reusing "DefaultProxyAdmin" at 0xFfE43e71461920d9ee2Eb6095c6750412bcC8CC3
+reusing "DateTimeLibrary_Implementation" at 0x741d0eDaA44D5efA6927d7C9B333f09B7dEcd887
+Verify: 
+npx hardhat verify --network bscTestnet <Implementation_adddress>
+reusing "DefaultProxyAdmin" at 0xFfE43e71461920d9ee2Eb6095c6750412bcC8CC3
+reusing "WolfsNFT_Implementation" at 0x73D280F7Bd39741C65FFdc20146c6231753bC38a
+isInitialized:  true
+Verify: 
+npx hardhat verify --network bscTestnet <Implementation_adddress>
+reusing "DefaultProxyAdmin" at 0xFfE43e71461920d9ee2Eb6095c6750412bcC8CC3
+reusing "MaterialsNFT_Implementation" at 0x1038C0e9a78399355C051c293F31a5f2687b8Da3
+isInitialized:  true
+Verify: 
+npx hardhat verify --network bscTestnet <Implementation_adddress>
+reusing "DefaultProxyAdmin" at 0xFfE43e71461920d9ee2Eb6095c6750412bcC8CC3
+reusing "Variables_Implementation" at 0x7e7cc52A9aBcCEd06Dfb33381BAeb1eE87f9967d
+Verify: 
+npx hardhat verify --network bscTestnet <Implementation_adddress>
+reusing "DefaultProxyAdmin" at 0xFfE43e71461920d9ee2Eb6095c6750412bcC8CC3
+reusing "WolfPacksNFT_Implementation" at 0x6Ad0Ee559AFC8463CB0C2B894BB14F5C8d809Bb0
+isInitialized:  true
+Verify: 
+npx hardhat verify --network bscTestnet <Implementation_adddress>
+reusing "DefaultProxyAdmin" at 0xFfE43e71461920d9ee2Eb6095c6750412bcC8CC3
+deploying "HuntingNFT_Implementation" (tx: 0xf50d75e007ab9b21728db3d4a4bf3994057a0d6ee7b7f9dac32de7c77f7a73f2)...: deployed at 0xd32FFF030ff3647C79b9F70Bde217F4D21158682 with 4722547 gas
+deploying "HuntingNFT_Proxy" (tx: 0x09c2134a6b8d12003feb5d591d677b4ea1ecd5537d32fde0501dfd06b1b50fc7)...: deployed at 0x0727d247660599bb376436F584c90aB76b48F9ad with 538241 gas
+isInitialized:  true
